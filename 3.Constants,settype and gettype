@@ -1,0 +1,13 @@
+<?php
+define("GREETING","Welcome to php",true);
+echo greeting;
+//Another way of calling php constants
+define("HELLO","How are you");
+echo constant("HELLO");
+$pi=3.14;
+settype($pi,"integer");
+echo $pi;
+
+echo gettype($pi);
+
+?>
