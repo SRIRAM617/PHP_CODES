@@ -1,0 +1,27 @@
+<?php
+/*$cars=array("BMW","SUZUKI","TOYOTA");
+$arrlength=count($cars);
+for($x=0;$x<$arrlength;$x++)
+{
+    echo $cars[$x];
+    echo "<br>";
+}
+*/
+/*$in=array("peter"=>"35","Ram"=>"20","Lakshman"=>"14");
+foreach($in as $x =>$x_values){
+    echo "Peter is ".$in['peter']."years old";
+}*/
+
+$cars=array(array("volvo","22","13")
+,array("suzuki","10","3")
+,array("toyoto","90","3")
+
+
+
+);
+echo $cars[0][0]." Sold".$cars[0][1]." Available ".$cars[0][2];
+
+
+
+
+?>
