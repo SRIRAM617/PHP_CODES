@@ -1,0 +1,9 @@
+<?php
+#echo "Hello World<br>";
+/*print("Hello World");
+echo 123;*/
+echo "Hello","World";
+#Variables are case sensitive
+#boolean true,false
+#NULL is case insensitive
+?>
