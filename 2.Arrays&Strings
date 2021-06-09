@@ -1,0 +1,12 @@
+<?php
+/*$cars=array("Volvo","BMW","Swift");
+echo $cars[0];
+echo $cars[1];
+echo $cars[2];*/
+$string1="Hi";
+echo strlen($string1);//Gives the length of the string and it counts from 1
+echo str_word_count($string1);//counts from 1
+echo strpos("Hello World","World");
+$p="Hi i am bha";
+echo str_replace("bha","sriram",$p);
+?>
